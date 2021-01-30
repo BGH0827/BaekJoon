@@ -8,6 +8,7 @@ public class Main {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
+		StringBuilder sb = new StringBuilder();
 		
 		int a = Integer.parseInt(st.nextToken());
 		int b = Integer.parseInt(st.nextToken());
@@ -20,8 +21,8 @@ public class Main {
 			c = c.multiply(new BigInteger(String.valueOf(a-i)));
 			d = d.multiply(new BigInteger(String.valueOf(i+1)));
 		}
-		
-		System.out.println(c.divide(d));
+		sb.append(c.divide(d));
+		System.out.print(sb);
 	}
 }
 
