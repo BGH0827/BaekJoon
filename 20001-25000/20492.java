@@ -7,6 +7,6 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int a = Integer.parseInt(br.readLine());
 
-		System.out.println(78*a/100 + " " + ((80*a/100)+(78*(20*a/100)/100)));
+		System.out.print(78*a/100 + " " + ((80*a/100)+(78*(20*a/100)/100)));
 	}
 }
