@@ -1,5 +1,5 @@
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NumberFormatException, IoException {
 
 		System.out.println("NFC West       W   L  T");
 		System.out.println("-----------------------");
