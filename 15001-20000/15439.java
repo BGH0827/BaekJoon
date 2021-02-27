@@ -7,8 +7,10 @@ public class Main {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		
+		int result = 0;
 		int N = Integer.parseInt(st.nextToken());
-		System.out.println(N*(N-1));
+		
+		result = N * (N-1);
+		System.out.print(result);
 	}
 }
