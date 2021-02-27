@@ -8,6 +8,6 @@ public class Main {
 		
 		int a = Integer.parseInt(br.readLine());
 		
-		System.out.println(a-543);
+		System.out.print(a-543);
 	}
 }
